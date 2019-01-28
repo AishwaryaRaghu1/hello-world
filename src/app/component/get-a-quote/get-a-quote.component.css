@@ -1,0 +1,132 @@
+
+/* Background image property */
+.bgimg img{
+    padding: 0;
+    margin: 0;
+    background-position: center;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width : 100%;
+    max-height: 80vh;
+}
+.bgimg .p1{
+    position: absolute;
+    top : 30%;
+    bottom: 30%;
+    left: 10%;
+    font-size : 65px;
+    color : white;
+    font-weight : bolder;
+    text-align: center;
+}
+.bgimg .bgtext{
+    position: absolute;
+    left : 50%;
+    top : 1%;
+    width : 50%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0px 5%;
+}
+.bgimg .bgtext .p2{
+    position: absolute;
+    top : 35%;
+    font-size : 18px;
+    color : white;
+    font-weight : bolder;
+    text-align: center;
+    line-height: 25px;
+}
+.bgimg .bgtext .btn{
+    position: absolute;
+    top : 45%;
+    height : 40px;
+    width : 280px;
+    background-color: red;
+    color : white;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top : 30px;
+}
+.bgimg .bgtext .btn:hover{
+    background-color: #FF6600;
+}
+.reqform{
+    margin : 5% 0;
+}
+#heading{
+    font-size : 30px;
+    font-weight: bolder;
+    margin : 5% 0%;
+}
+.form-group .btn{
+    background-color: black;
+    border : black;
+    color : white;
+    margin : 20px 40%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.form-group .btn span{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding : 5px;
+}
+
+/* Footering css property code */
+.footerimg{
+    width :100%;    
+    background-color :rgb(243, 242, 242);
+    border : solid 1px white;
+}
+.footerimg ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.para3{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top : 20px;
+}
+.blog1 .sect a{
+    position: relative;
+    display : block;
+    text-decoration: none;
+    color : gray;
+    font-size: 18px;
+}
+.blog1{
+    display: inline-block;
+    position: relative;
+    margin-left: 15%;
+    margin-bottom : 5%;
+}
+.options{    
+    list-style-type: none;   
+    display : inline-block;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+.options ul{
+    position: relative;
+    display: block;
+}
+.options ul li{
+    text-align: center;
+    color : gray;
+    font-size: 18px;
+    padding: 2px 0px;
+}
+.copyright p{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+.socilamedia{
+    background-color :rgb(243, 242, 242);
+    margin-left : 100px;
+}

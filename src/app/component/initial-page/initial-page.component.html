@@ -1,0 +1,343 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="../fonts/style.css">
+  <link rel="stylesheet" href="../cssfile/animate.css">
+<link rel="stylesheet" href="../bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<script src="../bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../jQuery/jquery.min.js"></script>  
+<style>
+  @font-face{
+    font-family: Avenir_Light;
+    src : url(../fonts/AvenirLTStd-Light.woff);
+  }
+*{
+  font-family:Avenir_Light;
+}
+</style>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBugdGwFYA2NMFy5EQKZKefNWQbWX4lCNs&libraries=places&language=en&region=in&radius=49000&strictbounds"></script>
+
+</head>
+
+<body>
+
+<div class="row backgroundimg">
+  <!-- <nav class="navbar navbar-default" role="navigation" style="background-color:transparent; border:none; position:absolute; width:100%;">
+    <div class="container-fluid">
+          <div class="navbar-header">
+            <img src="../images/up Annadaat-james-almacen.png" id="autocomplete" height="60px" width="110px" style="padding-left: 10px;">
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-collapse-main">
+            <div class="nav navbar-nav navbar-right">
+              <div class="dropdown1">
+                <button class="dropbtn1">Learn More</button>
+                  <div class="dropmenu1">
+                    <a routerLink="about-us">About us</a>
+                    <a routerLink="#">Become a vendor</a>
+                    <a routerLink="#">Careers</a>
+                  </div>
+              </div>
+              <a routerLink="#">Corporation solution</a>
+              <a routerLink="#">Find a Caterer</a>
+              <div class="dropdown2">
+                <button class="dropbtn2">More</button>
+                  <div class="dropmenu2">
+                    <a routerLink="#">Get a quote</a>
+                    <a routerLink="contact-us">Contact us</a>
+                  </div>			
+              </div>
+              <a href="#">Login</a>
+            </div>
+          </div>
+    </div>
+  </nav>	 -->
+  <div class="container-fluid">
+    <img src="../images/backround3.jpg" width="100%" height="100%"> 
+    <div class="imgtext">
+      <p class="p1">Best caterers around you are here.</p>
+      <p class="p2">Find caterers for all events and for all ethnicity</p>
+      <div class="search-container">
+          <form action="/action_page.php">
+            <img src="../images/imgicon.png" height="40px" width="40px">
+            <input type="text" placeholder="Enter a location.." name="search">
+            <button type="submit">SEARCH</button>
+          </form>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 col-md-4 col-lg-4">
+    <img src="../images/chef.png" height="100px" width="100px" class="img">
+    <p class="contenttitle wow">Verified Caterers</p>
+    <p class="contenttext wow">
+        Find the best caterers all in one place. Annadaat helps you explore and order from a list of handpicked caterers. With our customer rating and reviews system, we constantly update our caterers list.
+    </p>
+  </div>
+  <div class="col-sm-12 col-md-4 col-lg-4">
+      <img src="../images/clock.png" height="100px" width="100px" class="img">
+      <p class="contenttitle wow">Save Time</p>
+      <p class="contenttext wow">
+          Never again waste time calling restaurants to ask if they deliver to your location. Instantly identify caterers who serve your address, and filter by food type, budget, and more. Then, create, cancel, or modify orders.
+      </p>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4">
+        <img src="../images/rewards.png" height="100px" width="100px" class="img">
+        <p class="contenttitle wow">Earn rewards</p>
+        <p class="contenttext wow">
+            Earn up to 1-5% of what you spend as cashback points for every order you place. The more you order, the more you’re rewarded. Use your points to get Gift Cards or extend your budget by redeeming points for discounts on future orders.
+        </p>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+       <p class="para1 wow"> How can <span style="color:#FF6600;">Annadaat</span> help you? </p><br>
+       <p class="para2 wow">
+            Whether you are a caterer who wants more business, a company looking for corporate solutions,
+              or great talent seeking new career opportunities, there is more you should know.
+            </p>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 pageimg">
+            <!-- Bootstrap card -->
+            <div class="card wow" style="width:18rem;">
+            <img src="../images/Chef Preparing Meal.jpg">
+            <div class="top">For Caterers</div>
+            <div class="center">Learn how annadaat can help grow your catering business.</div>
+            <div class="downbtn">Find Out More</div>
+            </div>
+      </div> 
+      <div class="col-lg-4 col-md-4 col-sm-12 pageimg">
+          <div class="card wow" style="width:18rem;">
+            <img src="../images/Creative Working.jpg">
+            <div class="top">Corporate Accounts</div>
+            <div class="center">Learn how annadaat provides enhanced productivity,
+               visibility, and controls over food spend.</div>
+            <div class="downbtn">Find Out More</div>
+          </div>
+      </div> 
+      <div class="col-lg-4 col-md-4 col-sm-12 pageimg">
+          <div class="card wow" style="width:18rem;">
+             <img src="../images/Working Together.jpg">
+             <div class="top">Career  Opportunities</div>
+             <div class="center">Annadaat needs great people. Come grow with us.</div>
+             <div class="downbtn">Find Out More</div>
+            </div>
+      </div> 
+    </div>
+    </div>
+</div>
+<div class="padding">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <p class="contacttext"><span style="color:white;">Get in</span> Touch <span style="color:white;">with</span> Us.</p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <p class="contactoption">No <span style="color:#FF6600;">question is</span> Rediculous.</p>
+        <p class="option option1">
+          <span class="texttitle">Request a Call back</span><br>
+            Click here to enter your number so we can call you back to discuss your event catering needs</p>
+        <p class="option option2">
+          <span class="texttitle">Get a bespoke quote </span><br>
+            Tell us what you are looking for and we will recommend the ideal supplier and provide you with a competitive price.</p>
+        <p class="option option3">
+            <span class="texttitle">  Chat to our team online.</span><br>
+            You can talk to a member of our events team.</p>
+        <p class="contactoption">Just <span style="color:#FF6600;">Ask away</span> !</p>
+    </div>
+  </div>
+</div>  
+</div>
+
+<div class="container-fluid footerimg">
+  <div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-12">
+      <p class="para3">Order business catering through Annadaat</p>
+      <div class="socilamedia">
+        <a href="https://m.facebook.com/annadaatcateringservice/" title="facebook" target="_blank"><img src="../images/facebook.png" width="50px" height="50px"></a>
+        <a href="https://mobile.twitter.com/Annadaat1" title="twitter" target="_blank"><img src="../images/twitter.png" width="50px" height="50px"></a>
+        <a href="https://in.linkedin.com/company/annadaat" title="linkedin" target="_blank"><img src="../images/linkedin.png" width="50px" height="50px"></a>
+        <a href="#" title="google search" target="_blank"><img src="../images/googlesearch.png" width="50px" height="50px"></a>
+        <a href="https://www.youtube.com/channel/UC_ShH3jfzGe2x263NkcmnfA" title="youtube" target="_blank"><img src="../images/youtube.png" width="50px" height="50px"></a>
+      </div>
+  </div>
+   <div class="col-lg-8 col-md-8 col-sm-12">      
+              <div class="blog1">
+                      <h3>Company</h3>
+                      <div class="sect">
+                          <a>About Us</a>
+                          <a>Careers</a>
+                          <a>Blog</a>
+                          <a></a>
+                      </div>
+              </div>       
+          <div class="blog1">
+                      <h3>Info</h3>
+                      <div class="sect">
+                          <a>Contact Us</a>
+                          <a>Privacy Poacy</a>
+                          <a>Terms Of Use</a>
+                          <a>FAQ</a>
+                      </div>
+            </div>      
+              <div class="blog1">
+                        <h3>Get Started</h3>
+                        <div class="sect">
+                            <a>Start an order</a>
+                            <a>Corporate Account</a>
+                            <a>Become a Caterer</a>
+                            <a></a>
+                        </div>
+              </div>
+          </div>
+    </div>
+</div>
+
+<div class="container-fluid footerimg">
+  <div class="row">
+    <p style="font-size:24px; color:black; text-align: left;">Find Caterers for all your events</p>
+    <div class="col-lg-1 col-md-1"></div>
+    <div>
+        <div class="options">
+            <ul>
+                <li>Birthday party catering</li>
+                <li>Baby shower catering</li>
+                <li>Corporate catering</li>
+              </ul>
+        </div>
+    </div>
+    <div>
+        <div class="options">
+            <ul>
+                <li>Bbq catering</li>
+                <li>Pooja catering</li>
+                <li>High tea catering</li>
+              </ul>
+        </div>
+    </div>
+    <div>
+        <div class="options">
+            <ul>
+                <li>House party catering</li>
+                <li>Anniversary catering</li>
+                <li>Cocktail party catering</li>
+              </ul>
+        </div>
+    </div>
+    <div>
+        <div class="options">
+            <ul>
+                <li>House warming catering</li>
+                <li>Annual day catering</li>
+                <li>Buffet catering</li>
+              </ul>
+        </div>
+    </div>
+    <div>
+        <div class="options">
+            <ul>
+                <li>Wedding catering</li>
+                <li>Office party catering</li>
+                <li>Dessert catering</li>
+              </ul>
+        </div>
+    </div>
+    <div class="col-lg-1 col-md-1"></div>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2019 Annadaat.</p>
+    <p>All rights resserved.</p>
+  </div>
+</div>
+
+<script src="../jsfile/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+
+<!-- Script for the serach bar for the google palce location -->
+<script>
+    //Author Prem
+      /*execute a function when we recieve a message*/
+      window.addEventListener("message", function(){
+        if (event.data) {
+          let receivedData = event.data;
+          if(receivedData==200)
+          {
+            let data = document.getElementById('autocomplete').value;
+            //Post data to page
+            respond(data);
+          }
+        }
+      });	
+      //get the input from the DOM element  	
+        var input = document.getElementById('autocomplete');
+      //Parameters to limit the search.
+      var options = {
+              //limit search to Bangalore geocode 	
+              location: {latitude: 12.972442, longitude: 77.580643}
+                          
+             };
+      //PINCODE
+      var pincode="";
+      //Address	
+      var address="";
+      //Locality
+      var locality="";
+      
+        var autocomplete = new google.maps.places.Autocomplete(input, options);
+      google.maps.event.addListener(autocomplete, 'place_changed', function() {
+      var place = autocomplete.getPlace();
+      for (var i = 0; i < place.address_components.length; i++) {
+        //console.log(place.address_components[i]);
+        for (var j = 0; j < place.address_components[i].types.length; j++) {
+          //console.log(place.address_components[i].types[j]);
+          if (place.address_components[i].types[j] == "postal_code") {
+            //console.log(place.address_components[i].long_name);
+            pincode=pincode+place.address_components[i].long_name;
+            //attach pincode to the address
+            address=input.value+","+locality+","+pincode; 
+            //console.log(address);
+            respond(address);
+          }
+          
+          if (place.address_components[i].types[j] == "sublocality_level_1") {
+            //console.log(place.address_components[i].long_name);
+            locality=place.address_components[i].long_name;
+            // <!-- //PINCODE -->
+            // <!-- let pincode="";	 -->
+            // <!-- pincode=pincode+place.address_components[i].long_name; -->
+            // <!-- //attach pincode to the address -->
+            // <!-- let address=input.value+" "+pincode; -->
+            // <!-- //console.log(address); -->
+            // <!-- respond(address); -->
+          }
+          
+        }
+      }
+      })
+      
+      //execute this function when key is pressed in input DOM element.
+      function submit(input){
+      //check if Key pressed is enter
+      if(event.key=='Enter'){
+        //console.log(input.value);
+        //post data to parent window
+        //respond(input.value);
+      }
+      }
+      function submitOnClick(input){
+      //console.log(input.value);
+      //post data to parent window
+      respond(input.value);
+    
+      }
+      //post the input to the parent window
+      function respond(input) {
+      //console.log(input);
+        window.parent.postMessage(input, "*");
+        } 
+      </script>
+</body>
