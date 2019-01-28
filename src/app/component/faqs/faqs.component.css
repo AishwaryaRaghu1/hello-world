@@ -1,0 +1,78 @@
+
+/* Background image property */
+.bgimg img{
+    padding: 0;
+    margin: 0;
+    background-position: center;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width : 100%;
+    max-height: 50vh;
+}
+.bgimg .ctnt{
+    position: absolute;
+    top : 20%;    
+    left : 45%;
+    right : 45%;
+}
+.bgimg .ctnt h1{
+    font-size : 60px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.bgimg .ctnt hr{
+    width: 50px;
+    height: 30px;
+    color : white;
+}
+
+/* Property for the question list */
+.quesrtion_list{
+    margin-top : 5%;
+    margin-left: 15%;
+    margin-right: 30%;
+    color : black;
+}
+.quesrtion_list h1{
+    font-size : 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color : rgb(57, 209, 57);
+}
+.quesrtion_list h2{
+    font-size : 25px;
+    font-weight: bold;
+    margin-top : 5%;
+}
+.quesrtion_list p{
+    font-size : 20px;
+}
+
+/* Property for the FAQ form */
+.faq_form h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color : rgb(46, 46, 46);
+}
+.faq_form form{
+    margin : 30px 0px;
+}
+.faq_form button{  
+    margin : 0px 40%; 
+    background-color: black;
+    height : 45px;
+    width : auto;
+    border : none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.faq_form button span{
+    font-size: 25px;
+    font-weight: bolder;
+    align-self: center;
+    color: white;
+    padding : 10px;
+}
+
