@@ -1,0 +1,88 @@
+.container-fluid{
+    padding : 0px;
+    margin : 0px;
+    width : 100%;
+}
+/* background image setting */
+.vendor_bgimg img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    width : 100%;
+    filter: brightness(0.5);
+}
+.vendor_bgtext{
+    position : absolute;
+    top : 30%;
+    padding : 0% 40%;
+    font-size: 66px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+}
+.vendor_bgtext .btn{
+    margin-top : 20%;
+    background-color: rgb(163, 20, 20);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.vendor_bgtext .btn span{
+    color : white;
+    font-size: 28px;
+    padding : 2%;
+}
+.vendor_bgtext .btn:hover, .vendor_bgtext .btn span:hover {
+    background: white;
+    color: black;
+}
+
+/* contents setting */
+#heading{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(59, 59, 241);
+    text-align: left;
+    margin : 5% 0%;
+}
+#heading1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    margin : 5% 0%;
+}
+#heading2{
+    font-size: 23px;
+    font-weight: bold;
+    color: #FF6600;
+    margin : 5% 0%;
+}
+#content, ul li{
+    font-size: 17px;
+    color: black;
+}
+/* form property setting */
+.form_heading{
+    font-size: 30px;
+    color : black;
+    margin-top: 5%;
+}
+#submit_btn{
+    background-color: black;
+    height : auto;
+    width : auto;
+    border : none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+    font-size: 25px;
+    font-weight: bolder;
+    align-self: center;
+    color: white;
+    padding: 1% 2%;
+}
+input[type=submit]{
+    margin: 2% 40%;
+}
+
+

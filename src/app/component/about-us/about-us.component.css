@@ -16,7 +16,7 @@ body{
     height : 85vh
 }
 .slit p{
-    font-size: 25px;
+    font-size: 23px;
     color : white;
     background-color: #FF6600;
     height: 85vh;
@@ -32,11 +32,12 @@ body{
 
 /* block propery */
 .block3 h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
 }
 .block3 p{
-    font-size: 35px;
+    font-size: 28px;
+    background-color: white;
 }
 .block4 div{
    background-color: #FF6600;
@@ -47,6 +48,10 @@ body{
    border : solid 1px;
    border-color : white;
 } 
+.block4 h3{
+    font-size: 23px;
+    font-weight: bold;
+}
 .block4 .text1
 {
     background-color : rgb(6, 177, 6);
@@ -63,7 +68,7 @@ body{
     color: white;
 }
 .block4 p{
-    font-size: 18px;
+    font-size: 17px;
 }
 
 
@@ -130,61 +135,4 @@ body{
 .nav{
     display: inline-block;
     padding-top : 30px;
-}
-
-/* Footering css property code */
-
-.footerimg{
-    width :100%;    
-    background-color :rgb(243, 242, 242);
-    border : solid 1px white;
-}
-.footerimg ul li{
-    text-decoration: none;
-    list-style-type: none;
-}
-.para3{
-    font-size: 25px;
-    color: black;
-    text-align: center;
-    margin-top : 20px;
-}
-.blog1 .sect a{
-    position: relative;
-    display : block;
-    text-decoration: none;
-    color : gray;
-    font-size: 18px;
-}
-.blog1{
-    display: inline-block;
-    position: relative;
-    margin-left: 15%;
-    margin-bottom : 5%;
-}
-.options{    
-    list-style-type: none;   
-    display : inline-block;
-    float: left;
-    position: relative;
-    margin-bottom: 20px;
-}
-.options ul{
-    position: relative;
-    display: block;
-}
-.options ul li{
-    text-align: center;
-    color : gray;
-    font-size: 18px;
-    padding: 2px 0px;
-}
-.copyright p{
-    text-align: center;
-    font-size: 18px;
-    color: black;
-}
-.socilamedia{
-    background-color :rgb(243, 242, 242);
-    margin-left : 100px;
 }

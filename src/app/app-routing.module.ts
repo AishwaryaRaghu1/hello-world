@@ -9,6 +9,9 @@ import { CatererComponent } from './component/caterer/caterer.component';
 import { FindCatererComponent } from './component/find-caterer/find-caterer.component';
 import { GetAQuoteComponent } from './component/get-a-quote/get-a-quote.component';
 import { FaqsComponent } from './component/faqs/faqs.component';
+import { LoginComponent } from './component/login/login.component';
+import { RegisterComponent } from './component/register/register.component';
+import { MenupageComponent } from './component/menupage/menupage.component';
 
 const routes: Routes = [
   {
@@ -51,6 +54,18 @@ const routes: Routes = [
   {
     path : 'faqs',
     component : FaqsComponent
+  },
+  {
+    path : 'loginpage',
+    component : LoginComponent
+  },
+  // {
+  //   path : 'loginpage',
+  //   component : RegisterComponent
+  // },
+  {
+    path : 'menupage',
+    component : MenupageComponent
   }
 ];
 

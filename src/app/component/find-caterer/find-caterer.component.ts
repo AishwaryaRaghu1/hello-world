@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CaterersListService } from 'src/app/services/caterers-list.service';
 
 @Component({
   selector: 'app-find-caterer',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FindCatererComponent implements OnInit {
 
-  constructor() { }
+  public caterers = [];
+  public catererDatail:any;
+
+  constructor(private _caterersService: CaterersListService) { }
 
   ngOnInit() {
+    var homebtn = document.getElementById("homelink");
+    homebtn.style.display = 'inline';
+    
+    this._caterersService.getCaterersData()
+        .subscribe(data => this.caterers = data);
   }
 
+  dispalyMenu(caterer: any){
+    var menuDetail = JSON.stringify(caterer);
+    console.log(menuDetail);
+    localStorage.setItem('catererinfo',menuDetail);
+    window.open("menupage",'_self');
+  }
 }

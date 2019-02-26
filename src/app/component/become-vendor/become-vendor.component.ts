@@ -10,6 +10,8 @@ export class BecomeVendorComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    var homebtn = document.getElementById("homelink");
+    homebtn.style.display = 'inline';
   }
 
 }

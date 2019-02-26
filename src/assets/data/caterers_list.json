@@ -1,0 +1,67 @@
+[
+	{
+		"CatererId": 1,
+		"Name": "SRK caterer",
+		"Description": "Authentic South Indian",
+		"MinimumOrderQuantity": 15000,
+		"OnTimeCount": 100,
+		"Availability": "True",
+		"MenusStartingFrom": 250,
+		"DeliveryFee": 0,
+		"LiveKitchen": "False",
+		"Image": "url/to/the/image/file",
+		"BaseOfOperation": "Bangalore"
+	},
+	{
+		"CatererId": 2,
+		"Name": "SRK caterer",
+		"Description": "Authentic South Indian",
+		"MinimumOrderQuantity": 25000,
+		"OnTimeCount": 100,
+		"Availability": "True",
+		"MenusStartingFrom": 250,
+		"DeliveryFee": 0,
+		"LiveKitchen": "False",
+		"Image": "url/to/the/image/file",
+		"BaseOfOperation": "Bangalore"
+	},
+	{
+		"CatererId": 3,
+		"Name": "SRK caterer",
+		"Description": "Authentic South Indian",
+		"MinimumOrderQuantity": 35000,
+		"OnTimeCount": 100,
+		"Availability": "True",
+		"MenusStartingFrom": 250,
+		"DeliveryFee": 0,
+		"LiveKitchen": "False",
+		"Image": "url/to/the/image/file",
+		"BaseOfOperation": "Bangalore"
+	},
+	{
+		"CatererId": 4,
+		"Name": "SRK caterer",
+		"Description": "Authentic South Indian",
+		"MinimumOrderQuantity": 45000,
+		"OnTimeCount": 100,
+		"Availability": "True",
+		"MenusStartingFrom": 250,
+		"DeliveryFee": 0,
+		"LiveKitchen": "False",
+		"Image": "url/to/the/image/file",
+		"BaseOfOperation": "Bangalore"
+	},
+	{
+		"CatererId": 5,
+		"Name": "SRK caterer",
+		"Description": "Authentic South Indian",
+		"MinimumOrderQuantity": 55000,
+		"OnTimeCount": 100,
+		"Availability": "True",
+		"MenusStartingFrom": 250,
+		"DeliveryFee": 0,
+		"LiveKitchen": "False",
+		"Image": "url/to/the/image/file",
+		"BaseOfOperation": "Bangalore"
+	}
+]	

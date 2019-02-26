@@ -13,11 +13,12 @@
             <style>
                 @font-face
                 {
-                    font-family: Avenir_Light;
+                    font-family: Avenir_Roman;
                     src : url(../fonts/AvenirLTStd-Light.woff);
                 }
                 *{
-                    font-family:Avenir_Light;
+                    font-family: Avenir_Roman;
+                    text-shadow: 2px rgba(255, 255, 255, 0.9);
                 }
             </style>
         </head>
@@ -27,7 +28,7 @@
             <nav class="navbar navbar-default" role="navigation" style="background-color:transparent; color: transparent; border:none; position:absolute; width:100%; z-index: 1;">
                     <div class="container-fluid">
                           <div class="navbar-header">
-                            <img src="../images/up Annadaat-james-almacen.png" id="autocomplete" height="60px" width="110px" style="padding-left: 10px;">
+                            <img src="../images/up Annadaat-james-almacen.png" id="autocomplete" height="60px" width="110px">
                           </div>
                           <div class="collapse navbar-collapse" id="navbar-collapse-main">
                             <div class="nav navbar-nav navbar-right">
@@ -50,7 +51,7 @@
                                     <a routerLink="faqs">FAQ's</a>
                                   </div>			
                               </div>
-                              <a href="#">Login</a>
+                              <a  id="login" onclick="document.getElementById('id01').style.display='block'" target="_self">Login</a>
                             </div>
                           </div>
                     </div>
@@ -58,14 +59,93 @@
             </div>
 
             <div>
-                  <router-outlet></router-outlet>
-                 
+                  <router-outlet></router-outlet>  
             </div>
-    </body>
 
+            <div class="container-fluid footer" style="background-color :rgb(243, 242, 242); margin-top : 5%;">
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-sm-10 col-md-10 col-lg-10">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="socilamediacontent">
+                                <p>Order business catering<br> through Annadaat</p>
+                            </div>
+                            <div class="socilamedialinks">
+                                <a href="https://m.facebook.com/annadaatcateringservice/" title="facebook" target="_blank"><img src="../images/facebook.png" width="50px" height="50px"></a>
+                                <a href="https://mobile.twitter.com/Annadaat1" title="twitter" target="_blank"><img src="../images/twitter.png" width="50px" height="50px"></a>
+                                <a href="https://in.linkedin.com/company/annadaat" title="linkedin" target="_blank"><img src="../images/linkedin.png" width="50px" height="50px"></a>
+                                <a href="#" title="google search" target="_blank"><img src="../images/googlesearch.png" width="50px" height="50px"></a>
+                                <a href="https://www.youtube.com/channel/UC_ShH3jfzGe2x263NkcmnfA" title="youtube" target="_blank"><img src="../images/youtube.png" width="50px" height="50px"></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">                            
+                            <div class="descriptions">
+                                <ul>
+                                    <li class="title">Company</li>
+                                    <li><a>About Us</a></li>
+                                    <li><a>Careers</a></li>
+                                    <li><a>Blog</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="title">Info</li>
+                                    <li><a>Contact Us</a></li>
+                                    <li><a>Privacy Poacy</a></li>
+                                    <li><a>Terms Of Use</a></li>
+                                    <li><a>FAQ</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="title">Get Started</li>
+                                    <li><a>Start an order</a></li>
+                                    <li><a>Corporate Account</a></li>
+                                    <li><a>Become a Caterer</a></li>
+                                </ul>            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <div class="container-fluid footer"style="background-color :rgb(243, 242, 242);">
+                <div class="row">
+                        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                        <div class="col-sm-10 col-md-10 col-lg-10">
+                            <div class="occasitionscontent">
+                                <p>Find Caterers for all your events</p>
+                            </div>                        
+                            <div class="occasitions">
+                                <ul>
+                                    <li>Birthday party catering</li>
+                                    <li>Baby shower catering</li>
+                                    <li>Corporate catering</li>        
+                                </ul>    
+                                <ul>
+                                    <li>Bbq catering</li>
+                                    <li>Pooja catering</li>
+                                    <li>High tea catering</li>
+                                </ul> 
+                                <ul>
+                                    <li>House party catering</li>
+                                    <li>Anniversary catering</li>
+                                    <li>Cocktail party catering</li> 
+                                </ul>   
+                                <ul>
+                                    <li>House warming catering</li>
+                                    <li>Annual day catering</li>
+                                    <li>Buffet catering</li>
+                                </ul>    
+                                <ul>
+                                    <li>Wedding catering</li>
+                                    <li>Office party catering</li>
+                                    <li>Dessert catering</li>
+                                </ul>  
+                            </div>                       
+                        </div>
+                        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="copyright">
+                        <p>&copy; 2019 Annadaat.<br>
+                        All rights resserved.</p>
+                </div>
+            </div> 
+    </body>
 </html>
-<!-- <app-faqs></app-faqs>
-<app-corporate-solution></app-corporate-solution> -->
-<!-- <app-initial-page></app-initial-page> -->
-<!-- <app-about-us></app-about-us> -->
-<!-- <app-contact-us></app-contact-us> -->

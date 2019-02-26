@@ -1,0 +1,122 @@
+/* background image */
+.bgimg img{
+    padding: 0;
+    margin: 0;
+    background-position: center;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width : 100%;
+    max-height: 80vh;
+}
+.bgimg .imgtext h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(57, 175, 57);
+    text-align: center;
+}
+.bgimg .imgtext p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.bgimg .imgtext{
+    position : absolute;
+    top : 25%;
+    margin : 0px 20%;
+}
+
+/* list of menu */
+.menutype a{
+    font-size : 20px;
+    color : black;
+    text-align: center;
+    text-decoration: none;
+}
+.menutype a:hover{
+   font-weight: bolder;
+}
+.menutype .dropdown{
+    display: inline;
+}
+.menutype{
+    margin: 5% 0;
+}
+.menutype a{
+    margin:0% 3%;
+}
+.menutype .dropdown{
+    margin-left: 3%;
+}
+.menutype .dropdown .dropbtn{
+    border : none;
+    background-color : white;
+    color : black;
+    font-size: 20px;
+    text-align: center;
+}
+.dropdown_list a{
+    font-size: 18px;
+    color : black;
+    position: relative;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width : 150%;
+    padding-top : 5px;
+}
+.dropdown_list{
+    position: absolute;
+    display : none;
+    right : 0;
+}
+.dropdown:hover .dropdown_list{
+    display: block;
+}
+/* order count */
+.caterer_list{
+    margin-left: 5%;
+    font-size: 15px;
+    color : black;
+}
+.caterer_list label{
+    font-size: 20px;
+    color : black;  
+}
+.caterer_list input{
+    margin : 10px;
+}
+/* caterers list */
+.catererlist img{
+    float: left;
+}
+.catererinfo{
+    position : relative;
+    margin-left : 30%;
+    top : 25%;    
+}
+.catererinfo h2,.catererinfo h3{
+    font-weight: bold;
+}
+.catererinfo h4 span{
+    font-size: 15px;
+    font-style: italic;
+}
+.catererinfo h4{
+    font-style: italic;
+    font-size: 15px;
+}
+.menubtn{
+    position : relative;
+    margin-left : 75%; 
+}
+.menubtn button span{
+    font-size: 18px;
+    font-weight: bold;
+    color : white;
+    padding : 5px;
+}
+.menubtn button{
+    background-color: #FF6600;
+}

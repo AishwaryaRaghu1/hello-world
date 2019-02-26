@@ -1,0 +1,155 @@
+.container-fluid{
+    padding : 0px;
+    margin : 0px;
+    width : 100%;
+}
+/* background image setting */
+.vendor_bgimg img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh;
+    width : 100%;
+    filter: brightness(0.5);
+}
+/* background image overlapping text */
+.vendor_bgtext{
+    position: absolute;
+    top : 25%;
+    padding : 0% 34%;
+    font-size: 50px;
+    color: black;
+    text-align: left;
+    font-weight: bolder;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-shadow: 2px 3px lightgray;
+}
+.vendor_bgtext #white{
+    color: white;
+}
+/* text property */
+#vendor_text{
+    font-size: 35px;
+    color : rgb(14, 96, 143);
+    text-align: center;
+    font-weight: bolder;
+    margin : 5% 0%;
+}
+
+/* left aligned text settings */
+.text_left p span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.text_left p{
+    font-size: 20px;
+    padding-top : 5%;
+    color: black;
+}
+#orange{
+    color : #FF6600;
+}
+/* form content setting */
+.form_heading{
+    font-size: 30px;
+    color: rgb(39, 155, 39);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5%;
+}
+.form-group{
+    padding-top : 4%;
+}
+button{    
+    background-color: black;
+    height : auto;
+    width : auto;
+    border : none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+button span{
+    font-size: 25px;
+    font-weight: bolder;
+    align-self: center;
+    color: white;
+    padding: 25px;
+}
+#submit_btn{
+    margin: 0% 35%;
+}
+/* property for four blocks */
+.content_block{
+    margin : 5% 0%;
+    text-align: center;
+}
+.content_block div{
+    height:  280px;
+}
+.content_block span{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.content_block p{
+    font-size: 17px;
+    text-align: center;
+}
+#bg_orange{
+    background-color: #FF6600;
+    color : white;
+}
+#bg_gray{
+    background-color: lightgray;
+    color : black;
+}
+/* #bg_orange hr{
+    width: 50px;
+    height: 30px;
+    color : white;
+}
+#bg_gray hr{
+    width: 50px;
+    height: 30px;
+    color : black;
+} */
+
+/* property for a strip */
+.block{
+    width : 100%;
+    height: 5%;
+    background-color: rgb(77, 240, 77);
+    margin : 2% 0%;
+    text-align: center;
+    padding: 1% 0%;
+}
+.block h1{
+    font-size: 40px;
+    color : white;
+    font-weight: bolder;
+}
+.block p{
+    font-size: 28px;
+    color: black;
+    font-weight: bolder;
+}
+
+/* media query poperty for the block division */
+@media screen and (min-width: 500px) and (max-width: 1000px){
+    .content_block div{
+        height:  150px;
+    }
+    button span{
+        font-size: 20px;
+    }
+    .vendor_bgtext{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1499px){
+    button span{
+        font-size: 20px;
+        padding : 10px;
+    }
+}

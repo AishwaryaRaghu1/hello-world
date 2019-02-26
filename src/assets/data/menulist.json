@@ -1,0 +1,137 @@
+[
+    {
+        "name": "Raghu",
+        "details": [
+                    {
+                        "mov": 5000,
+                        "description": "South indian",
+                        "availability": true,
+                        "image": "/home/pi/image1.jpg",
+                        "Rating": 3
+                    }
+                    ],
+        "menus": [
+                    {
+                        "id": 1,
+                        "catererid": 1,
+                        "menuname": "Menu 1",
+                        "menuprice": 250,
+                        "menudetails": [
+                                            {
+                                                "items": "Chappathi"
+                                            },
+                                            {
+                                                "items": "Roti"
+                                            }
+                                        ]
+                    },
+                    {
+                        "id": 2,
+                        "catererid": 1,
+                        "menuname": "Menu 2",
+                        "menuprice": 350,
+                        "menudetails": [
+                                            {
+                                                "items": "Iddly"
+                                            },
+                                            {
+                                                "items": "Vada"
+                                            },
+                                            {
+                                                "items": "Rice Bhath" 
+                                            }
+                                        ]
+                    }
+                ]
+    },
+    {
+        "name": "Ram",
+        "details": [
+                        {
+                            "mov": 6000,
+                            "description": "North indian",
+                            "availability": true,
+                            "image": "/home/pi/image1.jpg",
+                            "Rating": 4
+                        }
+                    ],
+        "menus": [
+                    {
+                        "id": 3,
+                        "catererid": 2,
+                        "menuname": "Menu 1",
+                        "menuprice": 450,
+                        "menudetails": [
+                            {
+                                "items": "Kara Bath"
+                            },
+                            {
+                                "items": "Roti Curry"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "catererid": 2,
+                        "menuname": "Menu 2",
+                        "menuprice": 150,
+                        "menudetails": [
+                            {
+                                "items": "Rice"
+                            },
+                            {
+                                "items": "Sambar"
+                            },
+                            {
+                                "items": "Pakoda" 
+                            }
+                        ]
+                    }
+        ]
+    },
+    {
+        "name": "Ashok",
+        "details": [
+                        {
+                            "mov": 5500,
+                            "description": "South indian",
+                            "availability": true,
+                            "image": "/home/pi/image1.jpg",
+                            "Rating": 4.3
+                        }
+                    ],
+        "menus": [
+                    {
+                        "id": 5,
+                        "catererid": 3,
+                        "menuname": "Menu 1",
+                        "menuprice": 300,
+                        "menudetails": [
+                            {
+                                "items": "Dosa"
+                            },
+                            {
+                                "items": "Parata"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "catererid": 3,
+                        "menuname": "Menu 2",
+                        "menuprice": 650,
+                        "menudetails": [
+                            {
+                                "items": "Biryani"
+                            },
+                            {
+                                "items": "Salad"
+                            },
+                            {
+                                "items": "Cutlet"
+                            }
+                        ]
+                    }
+        ]
+    }
+]
